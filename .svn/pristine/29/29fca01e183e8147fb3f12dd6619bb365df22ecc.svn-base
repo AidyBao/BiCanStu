@@ -1,0 +1,1233 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A806471209AACEC00DEB582 /* ZXRefresh.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A806470209AACEC00DEB582 /* ZXRefresh.xcassets */; };
+		6A806473209AAD0600DEB582 /* ZXCommon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A806472209AAD0600DEB582 /* ZXCommon.xcassets */; };
+		6AA94C9F209167990078F479 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94C9E209167990078F479 /* AppDelegate.m */; };
+		6AA94CA72091679A0078F479 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94CA62091679A0078F479 /* Assets.xcassets */; };
+		6AA94CAA2091679A0078F479 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94CA82091679A0078F479 /* LaunchScreen.storyboard */; };
+		6AA94CAD2091679A0078F479 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CAC2091679A0078F479 /* main.m */; };
+		6AA94D602091681F0078F479 /* ZXCheck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94CBC2091681F0078F479 /* ZXCheck@2x.png */; };
+		6AA94D612091681F0078F479 /* ZXCheck@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94CBD2091681F0078F479 /* ZXCheck@3x.png */; };
+		6AA94D622091681F0078F479 /* ZXFailure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94CBE2091681F0078F479 /* ZXFailure@2x.png */; };
+		6AA94D632091681F0078F479 /* ZXFailure@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94CBF2091681F0078F479 /* ZXFailure@3x.png */; };
+		6AA94D642091681F0078F479 /* ZXLoading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94CC02091681F0078F479 /* ZXLoading@2x.png */; };
+		6AA94D652091681F0078F479 /* ZXLoading@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94CC12091681F0078F479 /* ZXLoading@3x.png */; };
+		6AA94D662091681F0078F479 /* ZXNoData@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94CC22091681F0078F479 /* ZXNoData@2x.png */; };
+		6AA94D672091681F0078F479 /* ZXNoData@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94CC32091681F0078F479 /* ZXNoData@3x.png */; };
+		6AA94D682091681F0078F479 /* ZXNoNetwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94CC42091681F0078F479 /* ZXNoNetwork@2x.png */; };
+		6AA94D692091681F0078F479 /* ZXNoNetwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94CC52091681F0078F479 /* ZXNoNetwork@3x.png */; };
+		6AA94D6A2091681F0078F479 /* ZXSuccess@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94CC62091681F0078F479 /* ZXSuccess@2x.png */; };
+		6AA94D6B2091681F0078F479 /* ZXSuccess@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94CC72091681F0078F479 /* ZXSuccess@3x.png */; };
+		6AA94D6C2091681F0078F479 /* ZXSettings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94CC82091681F0078F479 /* ZXSettings.bundle */; };
+		6AA94D6D2091681F0078F479 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CCC2091681F0078F479 /* Base64.m */; };
+		6AA94D6E2091681F0078F479 /* NSAttributedString+ZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CCF2091681F0078F479 /* NSAttributedString+ZX.m */; };
+		6AA94D6F2091681F0078F479 /* NSBundle+ZXSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CD12091681F0078F479 /* NSBundle+ZXSetting.m */; };
+		6AA94D702091681F0078F479 /* NSMutableAttributedString+ZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CD32091681F0078F479 /* NSMutableAttributedString+ZX.m */; };
+		6AA94D712091681F0078F479 /* UIColor+ZXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CD52091681F0078F479 /* UIColor+ZXColor.m */; };
+		6AA94D722091681F0078F479 /* UIDevice+ZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CD72091681F0078F479 /* UIDevice+ZX.m */; };
+		6AA94D732091681F0078F479 /* UIFont+ZXFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CD92091681F0078F479 /* UIFont+ZXFont.m */; };
+		6AA94D742091681F0078F479 /* UIImage+ZXCropping.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CDB2091681F0078F479 /* UIImage+ZXCropping.m */; };
+		6AA94D752091681F0078F479 /* UILabel+ZXAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CDD2091681F0078F479 /* UILabel+ZXAnimation.m */; };
+		6AA94D762091681F0078F479 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CDF2091681F0078F479 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		6AA94D772091681F0078F479 /* UITabBarController+ZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CE12091681F0078F479 /* UITabBarController+ZX.m */; };
+		6AA94D782091681F0078F479 /* UIView+ZXFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CE32091681F0078F479 /* UIView+ZXFrame.m */; };
+		6AA94D792091681F0078F479 /* UIViewController+ZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CE52091681F0078F479 /* UIViewController+ZX.m */; };
+		6AA94D7A2091681F0078F479 /* UIViewController+ZXNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CE72091681F0078F479 /* UIViewController+ZXNav.m */; };
+		6AA94D7B2091681F0078F479 /* UIViewController+ZXPortrait.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CE92091681F0078F479 /* UIViewController+ZXPortrait.m */; };
+		6AA94D7C2091681F0078F479 /* ZXCommonEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CEC2091681F0078F479 /* ZXCommonEngine.m */; };
+		6AA94D7D2091681F0078F479 /* ZXEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CF12091681F0078F479 /* ZXEmptyView.m */; };
+		6AA94D7E2091681F0078F479 /* DimmingPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CF42091681F0078F479 /* DimmingPresentationController.m */; };
+		6AA94D7F2091681F0078F479 /* ZXFullCheckListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CF62091681F0078F479 /* ZXFullCheckListViewController.m */; };
+		6AA94D802091681F0078F479 /* ZXFullCheckListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94CF72091681F0078F479 /* ZXFullCheckListViewController.xib */; };
+		6AA94D812091681F0078F479 /* ZXItemSelectTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94CF92091681F0078F479 /* ZXItemSelectTableCell.m */; };
+		6AA94D822091681F0078F479 /* ZXItemSelectTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94CFA2091681F0078F479 /* ZXItemSelectTableCell.xib */; };
+		6AA94D842091681F0078F479 /* UIScrollView+ZXPullDownRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D002091681F0078F479 /* UIScrollView+ZXPullDownRefresh.m */; };
+		6AA94D852091681F0078F479 /* ZXRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D022091681F0078F479 /* ZXRefreshHeader.m */; };
+		6AA94D892091681F0078F479 /* ZXRootViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D092091681F0078F479 /* ZXRootViewControllers.m */; };
+		6AA94D8A2091681F0078F479 /* ZXButtonConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D0C2091681F0078F479 /* ZXButtonConfig.m */; };
+		6AA94D8B2091681F0078F479 /* ZXFontConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D0E2091681F0078F479 /* ZXFontConfig.m */; };
+		6AA94D8C2091681F0078F479 /* ZXFontSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D102091681F0078F479 /* ZXFontSize.m */; };
+		6AA94D8D2091681F0078F479 /* ZXNavBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D122091681F0078F479 /* ZXNavBarConfig.m */; };
+		6AA94D8E2091681F0078F479 /* ZXTabBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D142091681F0078F479 /* ZXTabBarConfig.m */; };
+		6AA94D8F2091681F0078F479 /* ZXTabbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D162091681F0078F479 /* ZXTabbarItem.m */; };
+		6AA94D902091681F0078F479 /* ZXTintColorConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D182091681F0078F479 /* ZXTintColorConfig.m */; };
+		6AA94D912091681F0078F479 /* ZXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D1B2091681F0078F479 /* ZXButton.m */; };
+		6AA94D922091681F0078F479 /* ZXImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D1D2091681F0078F479 /* ZXImageView.m */; };
+		6AA94D932091681F0078F479 /* ZXLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D1F2091681F0078F479 /* ZXLabel.m */; };
+		6AA94D942091681F0078F479 /* ZXTintButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D212091681F0078F479 /* ZXTintButton.m */; };
+		6AA94D952091681F0078F479 /* ZXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D242091681F0078F479 /* ZXView.m */; };
+		6AA94D962091681F0078F479 /* ZXAlertUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D272091681F0078F479 /* ZXAlertUtils.m */; };
+		6AA94D972091681F0078F479 /* ZXAudioUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D292091681F0078F479 /* ZXAudioUtils.m */; };
+		6AA94D982091681F0078F479 /* ZXCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D2B2091681F0078F479 /* ZXCommonUtils.m */; };
+		6AA94D992091681F0078F479 /* ZXDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D2D2091681F0078F479 /* ZXDateUtils.m */; };
+		6AA94D9A2091681F0078F479 /* ZXDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D2F2091681F0078F479 /* ZXDevice.m */; };
+		6AA94D9B2091681F0078F479 /* ZXImagePickerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D322091681F0078F479 /* ZXImagePickerUtils.m */; };
+		6AA94D9C2091681F0078F479 /* ZXQRCodeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D342091681F0078F479 /* ZXQRCodeUtils.m */; };
+		6AA94D9D2091681F0078F479 /* ZXStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D362091681F0078F479 /* ZXStringUtils.m */; };
+		6AA94D9E2091681F0078F479 /* ZXDBEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D3A2091681F0078F479 /* ZXDBEngine.m */; };
+		6AA94D9F2091681F0078F479 /* ZXHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D3D2091681F0078F479 /* ZXHUD.m */; };
+		6AA94DA02091681F0078F479 /* ZXAPISign.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D402091681F0078F479 /* ZXAPISign.m */; };
+		6AA94DA12091681F0078F479 /* ZXNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D422091681F0078F479 /* ZXNetwork.m */; };
+		6AA94DA22091681F0078F479 /* ZXNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D452091681F0078F479 /* ZXNotificationCenter.m */; };
+		6AA94DA32091681F0078F479 /* ZXRouter+Ads.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D482091681F0078F479 /* ZXRouter+Ads.m */; };
+		6AA94DA42091681F0078F479 /* ZXRouter+LeadPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D4A2091681F0078F479 /* ZXRouter+LeadPage.m */; };
+		6AA94DA52091681F0078F479 /* ZXRouter+RemoteNotice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D4C2091681F0078F479 /* ZXRouter+RemoteNotice.m */; };
+		6AA94DA62091681F0078F479 /* ZXRouter+WebPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D4E2091681F0078F479 /* ZXRouter+WebPage.m */; };
+		6AA94DA72091681F0078F479 /* ZXRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D502091681F0078F479 /* ZXRouter.m */; };
+		6AA94DA82091681F0078F479 /* ZXRouterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D522091681F0078F479 /* ZXRouterEngine.m */; };
+		6AA94DAA2091681F0078F479 /* ZXWebEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D572091681F0078F479 /* ZXWebEngine.m */; };
+		6AA94DAB2091681F0078F479 /* ZXWebEngine.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94D582091681F0078F479 /* ZXWebEngine.xib */; };
+		6AA94DAC2091681F0078F479 /* ZXWebStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D5A2091681F0078F479 /* ZXWebStoreViewController.m */; };
+		6AA94DAD2091681F0078F479 /* ZXWebStoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94D5B2091681F0078F479 /* ZXWebStoreViewController.xib */; };
+		6AA94DAE2091681F0078F479 /* ZXStrutsEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94D5E2091681F0078F479 /* ZXStrutsEngine.m */; };
+		6AA94DB7209173980078F479 /* NSString+ZXAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94DB6209173980078F479 /* NSString+ZXAPI.m */; };
+		6AA94DD0209176000078F479 /* ZXDiscoverRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94DCE209176000078F479 /* ZXDiscoverRootViewController.m */; };
+		6AA94DD1209176000078F479 /* ZXDiscoverRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94DCF209176000078F479 /* ZXDiscoverRootViewController.xib */; };
+		6AA94DD5209176110078F479 /* ZXTaskRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94DD3209176110078F479 /* ZXTaskRootViewController.m */; };
+		6AA94DD6209176110078F479 /* ZXTaskRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94DD4209176110078F479 /* ZXTaskRootViewController.xib */; };
+		6AA94DDA209176700078F479 /* ZXWriteRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94DD8209176700078F479 /* ZXWriteRootViewController.m */; };
+		6AA94DDB209176700078F479 /* ZXWriteRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94DD9209176700078F479 /* ZXWriteRootViewController.xib */; };
+		6AA94DDF2091767D0078F479 /* ZXMessageRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94DDD2091767D0078F479 /* ZXMessageRootViewController.m */; };
+		6AA94DE02091767D0078F479 /* ZXMessageRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94DDE2091767D0078F479 /* ZXMessageRootViewController.xib */; };
+		6AA94DE4209176A50078F479 /* ZXPersonalRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA94DE2209176A50078F479 /* ZXPersonalRootViewController.m */; };
+		6AA94DE5209176A50078F479 /* ZXPersonalRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AA94DE3209176A50078F479 /* ZXPersonalRootViewController.xib */; };
+		EA12F542A41FB1BB99B77F3A /* libPods-BiCanStu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 168C04BD863AF6B827F9E184 /* libPods-BiCanStu.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		168C04BD863AF6B827F9E184 /* libPods-BiCanStu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BiCanStu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A806470209AACEC00DEB582 /* ZXRefresh.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ZXRefresh.xcassets; sourceTree = "<group>"; };
+		6A806472209AAD0600DEB582 /* ZXCommon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ZXCommon.xcassets; sourceTree = "<group>"; };
+		6AA94C9A209167990078F479 /* BiCanStu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiCanStu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA94C9D209167990078F479 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6AA94C9E209167990078F479 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6AA94CA62091679A0078F479 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AA94CA92091679A0078F479 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AA94CAB2091679A0078F479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AA94CAC2091679A0078F479 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AA94CB82091681F0078F479 /* ZXAPIURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXAPIURL.h; sourceTree = "<group>"; };
+		6AA94CB92091681F0078F479 /* ZXDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXDefine.h; sourceTree = "<group>"; };
+		6AA94CBA2091681F0078F479 /* ZXNotificationNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXNotificationNames.h; sourceTree = "<group>"; };
+		6AA94CBC2091681F0078F479 /* ZXCheck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZXCheck@2x.png"; sourceTree = "<group>"; };
+		6AA94CBD2091681F0078F479 /* ZXCheck@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZXCheck@3x.png"; sourceTree = "<group>"; };
+		6AA94CBE2091681F0078F479 /* ZXFailure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZXFailure@2x.png"; sourceTree = "<group>"; };
+		6AA94CBF2091681F0078F479 /* ZXFailure@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZXFailure@3x.png"; sourceTree = "<group>"; };
+		6AA94CC02091681F0078F479 /* ZXLoading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZXLoading@2x.png"; sourceTree = "<group>"; };
+		6AA94CC12091681F0078F479 /* ZXLoading@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZXLoading@3x.png"; sourceTree = "<group>"; };
+		6AA94CC22091681F0078F479 /* ZXNoData@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZXNoData@2x.png"; sourceTree = "<group>"; };
+		6AA94CC32091681F0078F479 /* ZXNoData@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZXNoData@3x.png"; sourceTree = "<group>"; };
+		6AA94CC42091681F0078F479 /* ZXNoNetwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZXNoNetwork@2x.png"; sourceTree = "<group>"; };
+		6AA94CC52091681F0078F479 /* ZXNoNetwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZXNoNetwork@3x.png"; sourceTree = "<group>"; };
+		6AA94CC62091681F0078F479 /* ZXSuccess@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZXSuccess@2x.png"; sourceTree = "<group>"; };
+		6AA94CC72091681F0078F479 /* ZXSuccess@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZXSuccess@3x.png"; sourceTree = "<group>"; };
+		6AA94CC82091681F0078F479 /* ZXSettings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZXSettings.bundle; sourceTree = "<group>"; };
+		6AA94CCB2091681F0078F479 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		6AA94CCC2091681F0078F479 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		6AA94CCE2091681F0078F479 /* NSAttributedString+ZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+ZX.h"; sourceTree = "<group>"; };
+		6AA94CCF2091681F0078F479 /* NSAttributedString+ZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+ZX.m"; sourceTree = "<group>"; };
+		6AA94CD02091681F0078F479 /* NSBundle+ZXSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+ZXSetting.h"; sourceTree = "<group>"; };
+		6AA94CD12091681F0078F479 /* NSBundle+ZXSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+ZXSetting.m"; sourceTree = "<group>"; };
+		6AA94CD22091681F0078F479 /* NSMutableAttributedString+ZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+ZX.h"; sourceTree = "<group>"; };
+		6AA94CD32091681F0078F479 /* NSMutableAttributedString+ZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+ZX.m"; sourceTree = "<group>"; };
+		6AA94CD42091681F0078F479 /* UIColor+ZXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZXColor.h"; sourceTree = "<group>"; };
+		6AA94CD52091681F0078F479 /* UIColor+ZXColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZXColor.m"; sourceTree = "<group>"; };
+		6AA94CD62091681F0078F479 /* UIDevice+ZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+ZX.h"; sourceTree = "<group>"; };
+		6AA94CD72091681F0078F479 /* UIDevice+ZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+ZX.m"; sourceTree = "<group>"; };
+		6AA94CD82091681F0078F479 /* UIFont+ZXFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+ZXFont.h"; sourceTree = "<group>"; };
+		6AA94CD92091681F0078F479 /* UIFont+ZXFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+ZXFont.m"; sourceTree = "<group>"; };
+		6AA94CDA2091681F0078F479 /* UIImage+ZXCropping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZXCropping.h"; sourceTree = "<group>"; };
+		6AA94CDB2091681F0078F479 /* UIImage+ZXCropping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZXCropping.m"; sourceTree = "<group>"; };
+		6AA94CDC2091681F0078F479 /* UILabel+ZXAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZXAnimation.h"; sourceTree = "<group>"; };
+		6AA94CDD2091681F0078F479 /* UILabel+ZXAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZXAnimation.m"; sourceTree = "<group>"; };
+		6AA94CDE2091681F0078F479 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		6AA94CDF2091681F0078F479 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		6AA94CE02091681F0078F479 /* UITabBarController+ZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+ZX.h"; sourceTree = "<group>"; };
+		6AA94CE12091681F0078F479 /* UITabBarController+ZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+ZX.m"; sourceTree = "<group>"; };
+		6AA94CE22091681F0078F479 /* UIView+ZXFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZXFrame.h"; sourceTree = "<group>"; };
+		6AA94CE32091681F0078F479 /* UIView+ZXFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXFrame.m"; sourceTree = "<group>"; };
+		6AA94CE42091681F0078F479 /* UIViewController+ZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZX.h"; sourceTree = "<group>"; };
+		6AA94CE52091681F0078F479 /* UIViewController+ZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZX.m"; sourceTree = "<group>"; };
+		6AA94CE62091681F0078F479 /* UIViewController+ZXNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZXNav.h"; sourceTree = "<group>"; };
+		6AA94CE72091681F0078F479 /* UIViewController+ZXNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZXNav.m"; sourceTree = "<group>"; };
+		6AA94CE82091681F0078F479 /* UIViewController+ZXPortrait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZXPortrait.h"; sourceTree = "<group>"; };
+		6AA94CE92091681F0078F479 /* UIViewController+ZXPortrait.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZXPortrait.m"; sourceTree = "<group>"; };
+		6AA94CEA2091681F0078F479 /* ZXCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCategories.h; sourceTree = "<group>"; };
+		6AA94CEB2091681F0078F479 /* ZXCommonEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCommonEngine.h; sourceTree = "<group>"; };
+		6AA94CEC2091681F0078F479 /* ZXCommonEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCommonEngine.m; sourceTree = "<group>"; };
+		6AA94CEE2091681F0078F479 /* ZXCommonUIControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCommonUIControls.h; sourceTree = "<group>"; };
+		6AA94CF02091681F0078F479 /* ZXEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXEmptyView.h; sourceTree = "<group>"; };
+		6AA94CF12091681F0078F479 /* ZXEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXEmptyView.m; sourceTree = "<group>"; };
+		6AA94CF32091681F0078F479 /* DimmingPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DimmingPresentationController.h; sourceTree = "<group>"; };
+		6AA94CF42091681F0078F479 /* DimmingPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DimmingPresentationController.m; sourceTree = "<group>"; };
+		6AA94CF52091681F0078F479 /* ZXFullCheckListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXFullCheckListViewController.h; sourceTree = "<group>"; };
+		6AA94CF62091681F0078F479 /* ZXFullCheckListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXFullCheckListViewController.m; sourceTree = "<group>"; };
+		6AA94CF72091681F0078F479 /* ZXFullCheckListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXFullCheckListViewController.xib; sourceTree = "<group>"; };
+		6AA94CF82091681F0078F479 /* ZXItemSelectTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXItemSelectTableCell.h; sourceTree = "<group>"; };
+		6AA94CF92091681F0078F479 /* ZXItemSelectTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXItemSelectTableCell.m; sourceTree = "<group>"; };
+		6AA94CFA2091681F0078F479 /* ZXItemSelectTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXItemSelectTableCell.xib; sourceTree = "<group>"; };
+		6AA94CFF2091681F0078F479 /* UIScrollView+ZXPullDownRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ZXPullDownRefresh.h"; sourceTree = "<group>"; };
+		6AA94D002091681F0078F479 /* UIScrollView+ZXPullDownRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ZXPullDownRefresh.m"; sourceTree = "<group>"; };
+		6AA94D012091681F0078F479 /* ZXRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXRefreshHeader.h; sourceTree = "<group>"; };
+		6AA94D022091681F0078F479 /* ZXRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXRefreshHeader.m; sourceTree = "<group>"; };
+		6AA94D082091681F0078F479 /* ZXRootViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXRootViewControllers.h; sourceTree = "<group>"; };
+		6AA94D092091681F0078F479 /* ZXRootViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXRootViewControllers.m; sourceTree = "<group>"; };
+		6AA94D0B2091681F0078F479 /* ZXButtonConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXButtonConfig.h; sourceTree = "<group>"; };
+		6AA94D0C2091681F0078F479 /* ZXButtonConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXButtonConfig.m; sourceTree = "<group>"; };
+		6AA94D0D2091681F0078F479 /* ZXFontConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXFontConfig.h; sourceTree = "<group>"; };
+		6AA94D0E2091681F0078F479 /* ZXFontConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXFontConfig.m; sourceTree = "<group>"; };
+		6AA94D0F2091681F0078F479 /* ZXFontSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXFontSize.h; sourceTree = "<group>"; };
+		6AA94D102091681F0078F479 /* ZXFontSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXFontSize.m; sourceTree = "<group>"; };
+		6AA94D112091681F0078F479 /* ZXNavBarConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXNavBarConfig.h; sourceTree = "<group>"; };
+		6AA94D122091681F0078F479 /* ZXNavBarConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXNavBarConfig.m; sourceTree = "<group>"; };
+		6AA94D132091681F0078F479 /* ZXTabBarConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXTabBarConfig.h; sourceTree = "<group>"; };
+		6AA94D142091681F0078F479 /* ZXTabBarConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXTabBarConfig.m; sourceTree = "<group>"; };
+		6AA94D152091681F0078F479 /* ZXTabbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXTabbarItem.h; sourceTree = "<group>"; };
+		6AA94D162091681F0078F479 /* ZXTabbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXTabbarItem.m; sourceTree = "<group>"; };
+		6AA94D172091681F0078F479 /* ZXTintColorConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXTintColorConfig.h; sourceTree = "<group>"; };
+		6AA94D182091681F0078F479 /* ZXTintColorConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXTintColorConfig.m; sourceTree = "<group>"; };
+		6AA94D1A2091681F0078F479 /* ZXButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXButton.h; sourceTree = "<group>"; };
+		6AA94D1B2091681F0078F479 /* ZXButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXButton.m; sourceTree = "<group>"; };
+		6AA94D1C2091681F0078F479 /* ZXImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXImageView.h; sourceTree = "<group>"; };
+		6AA94D1D2091681F0078F479 /* ZXImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXImageView.m; sourceTree = "<group>"; };
+		6AA94D1E2091681F0078F479 /* ZXLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLabel.h; sourceTree = "<group>"; };
+		6AA94D1F2091681F0078F479 /* ZXLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLabel.m; sourceTree = "<group>"; };
+		6AA94D202091681F0078F479 /* ZXTintButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXTintButton.h; sourceTree = "<group>"; };
+		6AA94D212091681F0078F479 /* ZXTintButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXTintButton.m; sourceTree = "<group>"; };
+		6AA94D222091681F0078F479 /* ZXUIControlExtends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXUIControlExtends.h; sourceTree = "<group>"; };
+		6AA94D232091681F0078F479 /* ZXView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXView.h; sourceTree = "<group>"; };
+		6AA94D242091681F0078F479 /* ZXView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXView.m; sourceTree = "<group>"; };
+		6AA94D262091681F0078F479 /* ZXAlertUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXAlertUtils.h; sourceTree = "<group>"; };
+		6AA94D272091681F0078F479 /* ZXAlertUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXAlertUtils.m; sourceTree = "<group>"; };
+		6AA94D282091681F0078F479 /* ZXAudioUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXAudioUtils.h; sourceTree = "<group>"; };
+		6AA94D292091681F0078F479 /* ZXAudioUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXAudioUtils.m; sourceTree = "<group>"; };
+		6AA94D2A2091681F0078F479 /* ZXCommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCommonUtils.h; sourceTree = "<group>"; };
+		6AA94D2B2091681F0078F479 /* ZXCommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCommonUtils.m; sourceTree = "<group>"; };
+		6AA94D2C2091681F0078F479 /* ZXDateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXDateUtils.h; sourceTree = "<group>"; };
+		6AA94D2D2091681F0078F479 /* ZXDateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXDateUtils.m; sourceTree = "<group>"; };
+		6AA94D2E2091681F0078F479 /* ZXDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXDevice.h; sourceTree = "<group>"; };
+		6AA94D2F2091681F0078F479 /* ZXDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXDevice.m; sourceTree = "<group>"; };
+		6AA94D302091681F0078F479 /* ZXEnumDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXEnumDef.h; sourceTree = "<group>"; };
+		6AA94D312091681F0078F479 /* ZXImagePickerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXImagePickerUtils.h; sourceTree = "<group>"; };
+		6AA94D322091681F0078F479 /* ZXImagePickerUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXImagePickerUtils.m; sourceTree = "<group>"; };
+		6AA94D332091681F0078F479 /* ZXQRCodeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXQRCodeUtils.h; sourceTree = "<group>"; };
+		6AA94D342091681F0078F479 /* ZXQRCodeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXQRCodeUtils.m; sourceTree = "<group>"; };
+		6AA94D352091681F0078F479 /* ZXStringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXStringUtils.h; sourceTree = "<group>"; };
+		6AA94D362091681F0078F479 /* ZXStringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXStringUtils.m; sourceTree = "<group>"; };
+		6AA94D372091681F0078F479 /* ZXUtilityTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXUtilityTools.h; sourceTree = "<group>"; };
+		6AA94D392091681F0078F479 /* ZXDBEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXDBEngine.h; sourceTree = "<group>"; };
+		6AA94D3A2091681F0078F479 /* ZXDBEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXDBEngine.m; sourceTree = "<group>"; };
+		6AA94D3C2091681F0078F479 /* ZXHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXHUD.h; sourceTree = "<group>"; };
+		6AA94D3D2091681F0078F479 /* ZXHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXHUD.m; sourceTree = "<group>"; };
+		6AA94D3F2091681F0078F479 /* ZXAPISign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXAPISign.h; sourceTree = "<group>"; };
+		6AA94D402091681F0078F479 /* ZXAPISign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXAPISign.m; sourceTree = "<group>"; };
+		6AA94D412091681F0078F479 /* ZXNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXNetwork.h; sourceTree = "<group>"; };
+		6AA94D422091681F0078F479 /* ZXNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXNetwork.m; sourceTree = "<group>"; };
+		6AA94D442091681F0078F479 /* ZXNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXNotificationCenter.h; sourceTree = "<group>"; };
+		6AA94D452091681F0078F479 /* ZXNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXNotificationCenter.m; sourceTree = "<group>"; };
+		6AA94D472091681F0078F479 /* ZXRouter+Ads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZXRouter+Ads.h"; sourceTree = "<group>"; };
+		6AA94D482091681F0078F479 /* ZXRouter+Ads.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZXRouter+Ads.m"; sourceTree = "<group>"; };
+		6AA94D492091681F0078F479 /* ZXRouter+LeadPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZXRouter+LeadPage.h"; sourceTree = "<group>"; };
+		6AA94D4A2091681F0078F479 /* ZXRouter+LeadPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZXRouter+LeadPage.m"; sourceTree = "<group>"; };
+		6AA94D4B2091681F0078F479 /* ZXRouter+RemoteNotice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZXRouter+RemoteNotice.h"; sourceTree = "<group>"; };
+		6AA94D4C2091681F0078F479 /* ZXRouter+RemoteNotice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZXRouter+RemoteNotice.m"; sourceTree = "<group>"; };
+		6AA94D4D2091681F0078F479 /* ZXRouter+WebPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZXRouter+WebPage.h"; sourceTree = "<group>"; };
+		6AA94D4E2091681F0078F479 /* ZXRouter+WebPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZXRouter+WebPage.m"; sourceTree = "<group>"; };
+		6AA94D4F2091681F0078F479 /* ZXRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXRouter.h; sourceTree = "<group>"; };
+		6AA94D502091681F0078F479 /* ZXRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXRouter.m; sourceTree = "<group>"; };
+		6AA94D512091681F0078F479 /* ZXRouterEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXRouterEngine.h; sourceTree = "<group>"; };
+		6AA94D522091681F0078F479 /* ZXRouterEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXRouterEngine.m; sourceTree = "<group>"; };
+		6AA94D562091681F0078F479 /* ZXWebEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWebEngine.h; sourceTree = "<group>"; };
+		6AA94D572091681F0078F479 /* ZXWebEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWebEngine.m; sourceTree = "<group>"; };
+		6AA94D582091681F0078F479 /* ZXWebEngine.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXWebEngine.xib; sourceTree = "<group>"; };
+		6AA94D592091681F0078F479 /* ZXWebStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWebStoreViewController.h; sourceTree = "<group>"; };
+		6AA94D5A2091681F0078F479 /* ZXWebStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWebStoreViewController.m; sourceTree = "<group>"; };
+		6AA94D5B2091681F0078F479 /* ZXWebStoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXWebStoreViewController.xib; sourceTree = "<group>"; };
+		6AA94D5C2091681F0078F479 /* ZXStruts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXStruts.h; sourceTree = "<group>"; };
+		6AA94D5D2091681F0078F479 /* ZXStrutsEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXStrutsEngine.h; sourceTree = "<group>"; };
+		6AA94D5E2091681F0078F479 /* ZXStrutsEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXStrutsEngine.m; sourceTree = "<group>"; };
+		6AA94DB220916A1A0078F479 /* BiCanStu-PreCompile.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BiCanStu-PreCompile.pch"; sourceTree = "<group>"; };
+		6AA94DB5209173980078F479 /* NSString+ZXAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZXAPI.h"; sourceTree = "<group>"; };
+		6AA94DB6209173980078F479 /* NSString+ZXAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZXAPI.m"; sourceTree = "<group>"; };
+		6AA94DCD209176000078F479 /* ZXDiscoverRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXDiscoverRootViewController.h; sourceTree = "<group>"; };
+		6AA94DCE209176000078F479 /* ZXDiscoverRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXDiscoverRootViewController.m; sourceTree = "<group>"; };
+		6AA94DCF209176000078F479 /* ZXDiscoverRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZXDiscoverRootViewController.xib; sourceTree = "<group>"; };
+		6AA94DD2209176110078F479 /* ZXTaskRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXTaskRootViewController.h; sourceTree = "<group>"; };
+		6AA94DD3209176110078F479 /* ZXTaskRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXTaskRootViewController.m; sourceTree = "<group>"; };
+		6AA94DD4209176110078F479 /* ZXTaskRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZXTaskRootViewController.xib; sourceTree = "<group>"; };
+		6AA94DD7209176700078F479 /* ZXWriteRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXWriteRootViewController.h; sourceTree = "<group>"; };
+		6AA94DD8209176700078F479 /* ZXWriteRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXWriteRootViewController.m; sourceTree = "<group>"; };
+		6AA94DD9209176700078F479 /* ZXWriteRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZXWriteRootViewController.xib; sourceTree = "<group>"; };
+		6AA94DDC2091767D0078F479 /* ZXMessageRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXMessageRootViewController.h; sourceTree = "<group>"; };
+		6AA94DDD2091767D0078F479 /* ZXMessageRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXMessageRootViewController.m; sourceTree = "<group>"; };
+		6AA94DDE2091767D0078F479 /* ZXMessageRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZXMessageRootViewController.xib; sourceTree = "<group>"; };
+		6AA94DE1209176A50078F479 /* ZXPersonalRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXPersonalRootViewController.h; sourceTree = "<group>"; };
+		6AA94DE2209176A50078F479 /* ZXPersonalRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXPersonalRootViewController.m; sourceTree = "<group>"; };
+		6AA94DE3209176A50078F479 /* ZXPersonalRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZXPersonalRootViewController.xib; sourceTree = "<group>"; };
+		6FF7758355205445DCEEBF65 /* Pods-BiCanStu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiCanStu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BiCanStu/Pods-BiCanStu.debug.xcconfig"; sourceTree = "<group>"; };
+		C18473DC0FFD3C144C21C6A9 /* Pods-BiCanStu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiCanStu.release.xcconfig"; path = "Pods/Target Support Files/Pods-BiCanStu/Pods-BiCanStu.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AA94C97209167990078F479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA12F542A41FB1BB99B77F3A /* libPods-BiCanStu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AA94C91209167990078F479 = {
+			isa = PBXGroup;
+			children = (
+				6AA94C9C209167990078F479 /* BiCanStu */,
+				6AA94C9B209167990078F479 /* Products */,
+				F5867E9197E55AD5EC5B4FA8 /* Pods */,
+				C7931974B9552239C2A7214D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6AA94C9B209167990078F479 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94C9A209167990078F479 /* BiCanStu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AA94C9C209167990078F479 /* BiCanStu */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94C9D209167990078F479 /* AppDelegate.h */,
+				6AA94C9E209167990078F479 /* AppDelegate.m */,
+				6AA94CA82091679A0078F479 /* LaunchScreen.storyboard */,
+				6AA94DAF2091697C0078F479 /* ZXPresentation */,
+				6AA94CB32091681F0078F479 /* ZXStruts */,
+				6AA94DB1209169D40078F479 /* PCH */,
+				6AA94CAB2091679A0078F479 /* Info.plist */,
+				6AA94CAC2091679A0078F479 /* main.m */,
+			);
+			path = BiCanStu;
+			sourceTree = "<group>";
+		};
+		6AA94CB32091681F0078F479 /* ZXStruts */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94CBB2091681F0078F479 /* ZXResources */,
+				6AA94CC82091681F0078F479 /* ZXSettings.bundle */,
+				6AA94CC92091681F0078F479 /* ZXStruts(Common) */,
+				6AA94D382091681F0078F479 /* ZXStruts(DB) */,
+				6AA94D3B2091681F0078F479 /* ZXStruts(HUD) */,
+				6AA94D3E2091681F0078F479 /* ZXStruts(Network) */,
+				6AA94D432091681F0078F479 /* ZXStruts(Notification) */,
+				6AA94D462091681F0078F479 /* ZXStruts(Router) */,
+				6AA94D532091681F0078F479 /* ZXStruts(Web) */,
+				6AA94D5C2091681F0078F479 /* ZXStruts.h */,
+				6AA94D5D2091681F0078F479 /* ZXStrutsEngine.h */,
+				6AA94D5E2091681F0078F479 /* ZXStrutsEngine.m */,
+			);
+			path = ZXStruts;
+			sourceTree = "<group>";
+		};
+		6AA94CB72091681F0078F479 /* ZXDefine */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94CB82091681F0078F479 /* ZXAPIURL.h */,
+				6AA94CB92091681F0078F479 /* ZXDefine.h */,
+				6AA94CBA2091681F0078F479 /* ZXNotificationNames.h */,
+				6AA94DB5209173980078F479 /* NSString+ZXAPI.h */,
+				6AA94DB6209173980078F479 /* NSString+ZXAPI.m */,
+			);
+			path = ZXDefine;
+			sourceTree = "<group>";
+		};
+		6AA94CBB2091681F0078F479 /* ZXResources */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94CBC2091681F0078F479 /* ZXCheck@2x.png */,
+				6AA94CBD2091681F0078F479 /* ZXCheck@3x.png */,
+				6AA94CBE2091681F0078F479 /* ZXFailure@2x.png */,
+				6AA94CBF2091681F0078F479 /* ZXFailure@3x.png */,
+				6AA94CC02091681F0078F479 /* ZXLoading@2x.png */,
+				6AA94CC12091681F0078F479 /* ZXLoading@3x.png */,
+				6AA94CC22091681F0078F479 /* ZXNoData@2x.png */,
+				6AA94CC32091681F0078F479 /* ZXNoData@3x.png */,
+				6AA94CC42091681F0078F479 /* ZXNoNetwork@2x.png */,
+				6AA94CC52091681F0078F479 /* ZXNoNetwork@3x.png */,
+				6AA94CC62091681F0078F479 /* ZXSuccess@2x.png */,
+				6AA94CC72091681F0078F479 /* ZXSuccess@3x.png */,
+			);
+			path = ZXResources;
+			sourceTree = "<group>";
+		};
+		6AA94CC92091681F0078F479 /* ZXStruts(Common) */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94CCA2091681F0078F479 /* Base64 */,
+				6AA94CCD2091681F0078F479 /* ZXCategoies */,
+				6AA94CEB2091681F0078F479 /* ZXCommonEngine.h */,
+				6AA94CEC2091681F0078F479 /* ZXCommonEngine.m */,
+				6AA94CED2091681F0078F479 /* ZXCommonUIControls */,
+				6AA94D0A2091681F0078F479 /* ZXConfigs */,
+				6AA94D192091681F0078F479 /* ZXUIControlExtends */,
+				6AA94D252091681F0078F479 /* ZXUtilityTools */,
+			);
+			path = "ZXStruts(Common)";
+			sourceTree = "<group>";
+		};
+		6AA94CCA2091681F0078F479 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94CCB2091681F0078F479 /* Base64.h */,
+				6AA94CCC2091681F0078F479 /* Base64.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		6AA94CCD2091681F0078F479 /* ZXCategoies */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94CCE2091681F0078F479 /* NSAttributedString+ZX.h */,
+				6AA94CCF2091681F0078F479 /* NSAttributedString+ZX.m */,
+				6AA94CD02091681F0078F479 /* NSBundle+ZXSetting.h */,
+				6AA94CD12091681F0078F479 /* NSBundle+ZXSetting.m */,
+				6AA94CD22091681F0078F479 /* NSMutableAttributedString+ZX.h */,
+				6AA94CD32091681F0078F479 /* NSMutableAttributedString+ZX.m */,
+				6AA94CD42091681F0078F479 /* UIColor+ZXColor.h */,
+				6AA94CD52091681F0078F479 /* UIColor+ZXColor.m */,
+				6AA94CD62091681F0078F479 /* UIDevice+ZX.h */,
+				6AA94CD72091681F0078F479 /* UIDevice+ZX.m */,
+				6AA94CD82091681F0078F479 /* UIFont+ZXFont.h */,
+				6AA94CD92091681F0078F479 /* UIFont+ZXFont.m */,
+				6AA94CDA2091681F0078F479 /* UIImage+ZXCropping.h */,
+				6AA94CDB2091681F0078F479 /* UIImage+ZXCropping.m */,
+				6AA94CDC2091681F0078F479 /* UILabel+ZXAnimation.h */,
+				6AA94CDD2091681F0078F479 /* UILabel+ZXAnimation.m */,
+				6AA94CDE2091681F0078F479 /* UINavigationController+FDFullscreenPopGesture.h */,
+				6AA94CDF2091681F0078F479 /* UINavigationController+FDFullscreenPopGesture.m */,
+				6AA94CE02091681F0078F479 /* UITabBarController+ZX.h */,
+				6AA94CE12091681F0078F479 /* UITabBarController+ZX.m */,
+				6AA94CE22091681F0078F479 /* UIView+ZXFrame.h */,
+				6AA94CE32091681F0078F479 /* UIView+ZXFrame.m */,
+				6AA94CE42091681F0078F479 /* UIViewController+ZX.h */,
+				6AA94CE52091681F0078F479 /* UIViewController+ZX.m */,
+				6AA94CE62091681F0078F479 /* UIViewController+ZXNav.h */,
+				6AA94CE72091681F0078F479 /* UIViewController+ZXNav.m */,
+				6AA94CE82091681F0078F479 /* UIViewController+ZXPortrait.h */,
+				6AA94CE92091681F0078F479 /* UIViewController+ZXPortrait.m */,
+				6AA94CEA2091681F0078F479 /* ZXCategories.h */,
+			);
+			path = ZXCategoies;
+			sourceTree = "<group>";
+		};
+		6AA94CED2091681F0078F479 /* ZXCommonUIControls */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94CEE2091681F0078F479 /* ZXCommonUIControls.h */,
+				6AA94CEF2091681F0078F479 /* ZXEmptyView */,
+				6AA94CF22091681F0078F479 /* ZXFullCheckList */,
+				6AA94CFE2091681F0078F479 /* ZXPullRefresh */,
+				6AA94D082091681F0078F479 /* ZXRootViewControllers.h */,
+				6AA94D092091681F0078F479 /* ZXRootViewControllers.m */,
+			);
+			path = ZXCommonUIControls;
+			sourceTree = "<group>";
+		};
+		6AA94CEF2091681F0078F479 /* ZXEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94CF02091681F0078F479 /* ZXEmptyView.h */,
+				6AA94CF12091681F0078F479 /* ZXEmptyView.m */,
+			);
+			path = ZXEmptyView;
+			sourceTree = "<group>";
+		};
+		6AA94CF22091681F0078F479 /* ZXFullCheckList */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94CF32091681F0078F479 /* DimmingPresentationController.h */,
+				6AA94CF42091681F0078F479 /* DimmingPresentationController.m */,
+				6AA94CF52091681F0078F479 /* ZXFullCheckListViewController.h */,
+				6AA94CF62091681F0078F479 /* ZXFullCheckListViewController.m */,
+				6AA94CF72091681F0078F479 /* ZXFullCheckListViewController.xib */,
+				6AA94CF82091681F0078F479 /* ZXItemSelectTableCell.h */,
+				6AA94CF92091681F0078F479 /* ZXItemSelectTableCell.m */,
+				6AA94CFA2091681F0078F479 /* ZXItemSelectTableCell.xib */,
+			);
+			path = ZXFullCheckList;
+			sourceTree = "<group>";
+		};
+		6AA94CFE2091681F0078F479 /* ZXPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94CFF2091681F0078F479 /* UIScrollView+ZXPullDownRefresh.h */,
+				6AA94D002091681F0078F479 /* UIScrollView+ZXPullDownRefresh.m */,
+				6AA94D012091681F0078F479 /* ZXRefreshHeader.h */,
+				6AA94D022091681F0078F479 /* ZXRefreshHeader.m */,
+			);
+			path = ZXPullRefresh;
+			sourceTree = "<group>";
+		};
+		6AA94D0A2091681F0078F479 /* ZXConfigs */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94D0B2091681F0078F479 /* ZXButtonConfig.h */,
+				6AA94D0C2091681F0078F479 /* ZXButtonConfig.m */,
+				6AA94D0D2091681F0078F479 /* ZXFontConfig.h */,
+				6AA94D0E2091681F0078F479 /* ZXFontConfig.m */,
+				6AA94D0F2091681F0078F479 /* ZXFontSize.h */,
+				6AA94D102091681F0078F479 /* ZXFontSize.m */,
+				6AA94D112091681F0078F479 /* ZXNavBarConfig.h */,
+				6AA94D122091681F0078F479 /* ZXNavBarConfig.m */,
+				6AA94D132091681F0078F479 /* ZXTabBarConfig.h */,
+				6AA94D142091681F0078F479 /* ZXTabBarConfig.m */,
+				6AA94D152091681F0078F479 /* ZXTabbarItem.h */,
+				6AA94D162091681F0078F479 /* ZXTabbarItem.m */,
+				6AA94D172091681F0078F479 /* ZXTintColorConfig.h */,
+				6AA94D182091681F0078F479 /* ZXTintColorConfig.m */,
+			);
+			path = ZXConfigs;
+			sourceTree = "<group>";
+		};
+		6AA94D192091681F0078F479 /* ZXUIControlExtends */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94D1A2091681F0078F479 /* ZXButton.h */,
+				6AA94D1B2091681F0078F479 /* ZXButton.m */,
+				6AA94D1C2091681F0078F479 /* ZXImageView.h */,
+				6AA94D1D2091681F0078F479 /* ZXImageView.m */,
+				6AA94D1E2091681F0078F479 /* ZXLabel.h */,
+				6AA94D1F2091681F0078F479 /* ZXLabel.m */,
+				6AA94D202091681F0078F479 /* ZXTintButton.h */,
+				6AA94D212091681F0078F479 /* ZXTintButton.m */,
+				6AA94D222091681F0078F479 /* ZXUIControlExtends.h */,
+				6AA94D232091681F0078F479 /* ZXView.h */,
+				6AA94D242091681F0078F479 /* ZXView.m */,
+			);
+			path = ZXUIControlExtends;
+			sourceTree = "<group>";
+		};
+		6AA94D252091681F0078F479 /* ZXUtilityTools */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94D262091681F0078F479 /* ZXAlertUtils.h */,
+				6AA94D272091681F0078F479 /* ZXAlertUtils.m */,
+				6AA94D282091681F0078F479 /* ZXAudioUtils.h */,
+				6AA94D292091681F0078F479 /* ZXAudioUtils.m */,
+				6AA94D2A2091681F0078F479 /* ZXCommonUtils.h */,
+				6AA94D2B2091681F0078F479 /* ZXCommonUtils.m */,
+				6AA94D2C2091681F0078F479 /* ZXDateUtils.h */,
+				6AA94D2D2091681F0078F479 /* ZXDateUtils.m */,
+				6AA94D2E2091681F0078F479 /* ZXDevice.h */,
+				6AA94D2F2091681F0078F479 /* ZXDevice.m */,
+				6AA94D302091681F0078F479 /* ZXEnumDef.h */,
+				6AA94D312091681F0078F479 /* ZXImagePickerUtils.h */,
+				6AA94D322091681F0078F479 /* ZXImagePickerUtils.m */,
+				6AA94D332091681F0078F479 /* ZXQRCodeUtils.h */,
+				6AA94D342091681F0078F479 /* ZXQRCodeUtils.m */,
+				6AA94D352091681F0078F479 /* ZXStringUtils.h */,
+				6AA94D362091681F0078F479 /* ZXStringUtils.m */,
+				6AA94D372091681F0078F479 /* ZXUtilityTools.h */,
+			);
+			path = ZXUtilityTools;
+			sourceTree = "<group>";
+		};
+		6AA94D382091681F0078F479 /* ZXStruts(DB) */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94D392091681F0078F479 /* ZXDBEngine.h */,
+				6AA94D3A2091681F0078F479 /* ZXDBEngine.m */,
+			);
+			path = "ZXStruts(DB)";
+			sourceTree = "<group>";
+		};
+		6AA94D3B2091681F0078F479 /* ZXStruts(HUD) */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94D3C2091681F0078F479 /* ZXHUD.h */,
+				6AA94D3D2091681F0078F479 /* ZXHUD.m */,
+			);
+			path = "ZXStruts(HUD)";
+			sourceTree = "<group>";
+		};
+		6AA94D3E2091681F0078F479 /* ZXStruts(Network) */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94D3F2091681F0078F479 /* ZXAPISign.h */,
+				6AA94D402091681F0078F479 /* ZXAPISign.m */,
+				6AA94D412091681F0078F479 /* ZXNetwork.h */,
+				6AA94D422091681F0078F479 /* ZXNetwork.m */,
+			);
+			path = "ZXStruts(Network)";
+			sourceTree = "<group>";
+		};
+		6AA94D432091681F0078F479 /* ZXStruts(Notification) */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94D442091681F0078F479 /* ZXNotificationCenter.h */,
+				6AA94D452091681F0078F479 /* ZXNotificationCenter.m */,
+			);
+			path = "ZXStruts(Notification)";
+			sourceTree = "<group>";
+		};
+		6AA94D462091681F0078F479 /* ZXStruts(Router) */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94D472091681F0078F479 /* ZXRouter+Ads.h */,
+				6AA94D482091681F0078F479 /* ZXRouter+Ads.m */,
+				6AA94D492091681F0078F479 /* ZXRouter+LeadPage.h */,
+				6AA94D4A2091681F0078F479 /* ZXRouter+LeadPage.m */,
+				6AA94D4B2091681F0078F479 /* ZXRouter+RemoteNotice.h */,
+				6AA94D4C2091681F0078F479 /* ZXRouter+RemoteNotice.m */,
+				6AA94D4D2091681F0078F479 /* ZXRouter+WebPage.h */,
+				6AA94D4E2091681F0078F479 /* ZXRouter+WebPage.m */,
+				6AA94D4F2091681F0078F479 /* ZXRouter.h */,
+				6AA94D502091681F0078F479 /* ZXRouter.m */,
+				6AA94D512091681F0078F479 /* ZXRouterEngine.h */,
+				6AA94D522091681F0078F479 /* ZXRouterEngine.m */,
+			);
+			path = "ZXStruts(Router)";
+			sourceTree = "<group>";
+		};
+		6AA94D532091681F0078F479 /* ZXStruts(Web) */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94D562091681F0078F479 /* ZXWebEngine.h */,
+				6AA94D572091681F0078F479 /* ZXWebEngine.m */,
+				6AA94D582091681F0078F479 /* ZXWebEngine.xib */,
+				6AA94D592091681F0078F479 /* ZXWebStoreViewController.h */,
+				6AA94D5A2091681F0078F479 /* ZXWebStoreViewController.m */,
+				6AA94D5B2091681F0078F479 /* ZXWebStoreViewController.xib */,
+			);
+			path = "ZXStruts(Web)";
+			sourceTree = "<group>";
+		};
+		6AA94DAF2091697C0078F479 /* ZXPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94CB72091681F0078F479 /* ZXDefine */,
+				6AA94DBD209175090078F479 /* ZXLogin */,
+				6AA94DBC209175070078F479 /* ZX1Discover */,
+				6AA94DBB209175050078F479 /* ZX2Task */,
+				6AA94DBA209175040078F479 /* ZX3Write */,
+				6AA94DB9209175020078F479 /* ZX4Message */,
+				6AA94DB8209175000078F479 /* ZX5Personal */,
+				6AA94DB0209169C40078F479 /* ZXResources */,
+				6AA94CA62091679A0078F479 /* Assets.xcassets */,
+			);
+			path = ZXPresentation;
+			sourceTree = "<group>";
+		};
+		6AA94DB0209169C40078F479 /* ZXResources */ = {
+			isa = PBXGroup;
+			children = (
+				6A806470209AACEC00DEB582 /* ZXRefresh.xcassets */,
+				6A806472209AAD0600DEB582 /* ZXCommon.xcassets */,
+			);
+			path = ZXResources;
+			sourceTree = "<group>";
+		};
+		6AA94DB1209169D40078F479 /* PCH */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94DB220916A1A0078F479 /* BiCanStu-PreCompile.pch */,
+			);
+			path = PCH;
+			sourceTree = "<group>";
+		};
+		6AA94DB8209175000078F479 /* ZX5Personal */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94DCB209175E50078F479 /* ViewControler */,
+				6AA94DCC209175E50078F479 /* Model */,
+				6AA94DCA209175E50078F479 /* View */,
+			);
+			path = ZX5Personal;
+			sourceTree = "<group>";
+		};
+		6AA94DB9209175020078F479 /* ZX4Message */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94DC7209175DF0078F479 /* ViewControler */,
+				6AA94DC8209175DF0078F479 /* Model */,
+				6AA94DC9209175DF0078F479 /* View */,
+			);
+			path = ZX4Message;
+			sourceTree = "<group>";
+		};
+		6AA94DBA209175040078F479 /* ZX3Write */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94DC4209175D80078F479 /* ViewControler */,
+				6AA94DC5209175D90078F479 /* Model */,
+				6AA94DC6209175D90078F479 /* View */,
+			);
+			path = ZX3Write;
+			sourceTree = "<group>";
+		};
+		6AA94DBB209175050078F479 /* ZX2Task */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94DC3209175D10078F479 /* ViewControler */,
+				6AA94DC1209175D10078F479 /* Model */,
+				6AA94DC2209175D10078F479 /* View */,
+			);
+			path = ZX2Task;
+			sourceTree = "<group>";
+		};
+		6AA94DBC209175070078F479 /* ZX1Discover */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94DBE209175AB0078F479 /* ViewControler */,
+				6AA94DC0209175B40078F479 /* Model */,
+				6AA94DBF209175B00078F479 /* View */,
+			);
+			path = ZX1Discover;
+			sourceTree = "<group>";
+		};
+		6AA94DBD209175090078F479 /* ZXLogin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZXLogin;
+			sourceTree = "<group>";
+		};
+		6AA94DBE209175AB0078F479 /* ViewControler */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94DCD209176000078F479 /* ZXDiscoverRootViewController.h */,
+				6AA94DCE209176000078F479 /* ZXDiscoverRootViewController.m */,
+				6AA94DCF209176000078F479 /* ZXDiscoverRootViewController.xib */,
+			);
+			path = ViewControler;
+			sourceTree = "<group>";
+		};
+		6AA94DBF209175B00078F479 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6AA94DC0209175B40078F479 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6AA94DC1209175D10078F479 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6AA94DC2209175D10078F479 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6AA94DC3209175D10078F479 /* ViewControler */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94DD2209176110078F479 /* ZXTaskRootViewController.h */,
+				6AA94DD3209176110078F479 /* ZXTaskRootViewController.m */,
+				6AA94DD4209176110078F479 /* ZXTaskRootViewController.xib */,
+			);
+			path = ViewControler;
+			sourceTree = "<group>";
+		};
+		6AA94DC4209175D80078F479 /* ViewControler */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94DD7209176700078F479 /* ZXWriteRootViewController.h */,
+				6AA94DD8209176700078F479 /* ZXWriteRootViewController.m */,
+				6AA94DD9209176700078F479 /* ZXWriteRootViewController.xib */,
+			);
+			path = ViewControler;
+			sourceTree = "<group>";
+		};
+		6AA94DC5209175D90078F479 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6AA94DC6209175D90078F479 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6AA94DC7209175DF0078F479 /* ViewControler */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94DDC2091767D0078F479 /* ZXMessageRootViewController.h */,
+				6AA94DDD2091767D0078F479 /* ZXMessageRootViewController.m */,
+				6AA94DDE2091767D0078F479 /* ZXMessageRootViewController.xib */,
+			);
+			path = ViewControler;
+			sourceTree = "<group>";
+		};
+		6AA94DC8209175DF0078F479 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6AA94DC9209175DF0078F479 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6AA94DCA209175E50078F479 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6AA94DCB209175E50078F479 /* ViewControler */ = {
+			isa = PBXGroup;
+			children = (
+				6AA94DE1209176A50078F479 /* ZXPersonalRootViewController.h */,
+				6AA94DE2209176A50078F479 /* ZXPersonalRootViewController.m */,
+				6AA94DE3209176A50078F479 /* ZXPersonalRootViewController.xib */,
+			);
+			path = ViewControler;
+			sourceTree = "<group>";
+		};
+		6AA94DCC209175E50078F479 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7931974B9552239C2A7214D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				168C04BD863AF6B827F9E184 /* libPods-BiCanStu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5867E9197E55AD5EC5B4FA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FF7758355205445DCEEBF65 /* Pods-BiCanStu.debug.xcconfig */,
+				C18473DC0FFD3C144C21C6A9 /* Pods-BiCanStu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AA94C99209167990078F479 /* BiCanStu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AA94CB02091679A0078F479 /* Build configuration list for PBXNativeTarget "BiCanStu" */;
+			buildPhases = (
+				CD9F47AD64B3A6682CC8B7FC /* [CP] Check Pods Manifest.lock */,
+				6AA94C96209167990078F479 /* Sources */,
+				6AA94C97209167990078F479 /* Frameworks */,
+				6AA94C98209167990078F479 /* Resources */,
+				B18AA730911212EB6E7CBAA9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiCanStu;
+			productName = BiCanStu;
+			productReference = 6AA94C9A209167990078F479 /* BiCanStu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AA94C92209167990078F479 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = screson;
+				TargetAttributes = {
+					6AA94C99209167990078F479 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 6AA94C95209167990078F479 /* Build configuration list for PBXProject "BiCanStu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AA94C91209167990078F479;
+			productRefGroup = 6AA94C9B209167990078F479 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AA94C99209167990078F479 /* BiCanStu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AA94C98209167990078F479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA94D682091681F0078F479 /* ZXNoNetwork@2x.png in Resources */,
+				6AA94D652091681F0078F479 /* ZXLoading@3x.png in Resources */,
+				6AA94D672091681F0078F479 /* ZXNoData@3x.png in Resources */,
+				6A806471209AACEC00DEB582 /* ZXRefresh.xcassets in Resources */,
+				6A806473209AAD0600DEB582 /* ZXCommon.xcassets in Resources */,
+				6AA94D802091681F0078F479 /* ZXFullCheckListViewController.xib in Resources */,
+				6AA94DD6209176110078F479 /* ZXTaskRootViewController.xib in Resources */,
+				6AA94D612091681F0078F479 /* ZXCheck@3x.png in Resources */,
+				6AA94D822091681F0078F479 /* ZXItemSelectTableCell.xib in Resources */,
+				6AA94D622091681F0078F479 /* ZXFailure@2x.png in Resources */,
+				6AA94D632091681F0078F479 /* ZXFailure@3x.png in Resources */,
+				6AA94CAA2091679A0078F479 /* LaunchScreen.storyboard in Resources */,
+				6AA94CA72091679A0078F479 /* Assets.xcassets in Resources */,
+				6AA94D6A2091681F0078F479 /* ZXSuccess@2x.png in Resources */,
+				6AA94D642091681F0078F479 /* ZXLoading@2x.png in Resources */,
+				6AA94D6B2091681F0078F479 /* ZXSuccess@3x.png in Resources */,
+				6AA94D662091681F0078F479 /* ZXNoData@2x.png in Resources */,
+				6AA94D6C2091681F0078F479 /* ZXSettings.bundle in Resources */,
+				6AA94DDB209176700078F479 /* ZXWriteRootViewController.xib in Resources */,
+				6AA94DAB2091681F0078F479 /* ZXWebEngine.xib in Resources */,
+				6AA94D692091681F0078F479 /* ZXNoNetwork@3x.png in Resources */,
+				6AA94DE02091767D0078F479 /* ZXMessageRootViewController.xib in Resources */,
+				6AA94DE5209176A50078F479 /* ZXPersonalRootViewController.xib in Resources */,
+				6AA94D602091681F0078F479 /* ZXCheck@2x.png in Resources */,
+				6AA94DD1209176000078F479 /* ZXDiscoverRootViewController.xib in Resources */,
+				6AA94DAD2091681F0078F479 /* ZXWebStoreViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B18AA730911212EB6E7CBAA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BiCanStu/Pods-BiCanStu-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiCanStu/Pods-BiCanStu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD9F47AD64B3A6682CC8B7FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiCanStu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AA94C96209167990078F479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA94D972091681F0078F479 /* ZXAudioUtils.m in Sources */,
+				6AA94D702091681F0078F479 /* NSMutableAttributedString+ZX.m in Sources */,
+				6AA94D9B2091681F0078F479 /* ZXImagePickerUtils.m in Sources */,
+				6AA94D752091681F0078F479 /* UILabel+ZXAnimation.m in Sources */,
+				6AA94DA32091681F0078F479 /* ZXRouter+Ads.m in Sources */,
+				6AA94DDA209176700078F479 /* ZXWriteRootViewController.m in Sources */,
+				6AA94D7F2091681F0078F479 /* ZXFullCheckListViewController.m in Sources */,
+				6AA94D932091681F0078F479 /* ZXLabel.m in Sources */,
+				6AA94D912091681F0078F479 /* ZXButton.m in Sources */,
+				6AA94DAE2091681F0078F479 /* ZXStrutsEngine.m in Sources */,
+				6AA94D722091681F0078F479 /* UIDevice+ZX.m in Sources */,
+				6AA94D9D2091681F0078F479 /* ZXStringUtils.m in Sources */,
+				6AA94DA62091681F0078F479 /* ZXRouter+WebPage.m in Sources */,
+				6AA94D962091681F0078F479 /* ZXAlertUtils.m in Sources */,
+				6AA94DA82091681F0078F479 /* ZXRouterEngine.m in Sources */,
+				6AA94D8D2091681F0078F479 /* ZXNavBarConfig.m in Sources */,
+				6AA94D732091681F0078F479 /* UIFont+ZXFont.m in Sources */,
+				6AA94D9F2091681F0078F479 /* ZXHUD.m in Sources */,
+				6AA94DDF2091767D0078F479 /* ZXMessageRootViewController.m in Sources */,
+				6AA94D852091681F0078F479 /* ZXRefreshHeader.m in Sources */,
+				6AA94DB7209173980078F479 /* NSString+ZXAPI.m in Sources */,
+				6AA94DD5209176110078F479 /* ZXTaskRootViewController.m in Sources */,
+				6AA94D9A2091681F0078F479 /* ZXDevice.m in Sources */,
+				6AA94D772091681F0078F479 /* UITabBarController+ZX.m in Sources */,
+				6AA94D742091681F0078F479 /* UIImage+ZXCropping.m in Sources */,
+				6AA94DA12091681F0078F479 /* ZXNetwork.m in Sources */,
+				6AA94DA72091681F0078F479 /* ZXRouter.m in Sources */,
+				6AA94D952091681F0078F479 /* ZXView.m in Sources */,
+				6AA94DA22091681F0078F479 /* ZXNotificationCenter.m in Sources */,
+				6AA94D7A2091681F0078F479 /* UIViewController+ZXNav.m in Sources */,
+				6AA94D7B2091681F0078F479 /* UIViewController+ZXPortrait.m in Sources */,
+				6AA94D7C2091681F0078F479 /* ZXCommonEngine.m in Sources */,
+				6AA94D942091681F0078F479 /* ZXTintButton.m in Sources */,
+				6AA94D902091681F0078F479 /* ZXTintColorConfig.m in Sources */,
+				6AA94DA52091681F0078F479 /* ZXRouter+RemoteNotice.m in Sources */,
+				6AA94D8C2091681F0078F479 /* ZXFontSize.m in Sources */,
+				6AA94D922091681F0078F479 /* ZXImageView.m in Sources */,
+				6AA94D6E2091681F0078F479 /* NSAttributedString+ZX.m in Sources */,
+				6AA94D6D2091681F0078F479 /* Base64.m in Sources */,
+				6AA94D892091681F0078F479 /* ZXRootViewControllers.m in Sources */,
+				6AA94D9C2091681F0078F479 /* ZXQRCodeUtils.m in Sources */,
+				6AA94D8A2091681F0078F479 /* ZXButtonConfig.m in Sources */,
+				6AA94DAA2091681F0078F479 /* ZXWebEngine.m in Sources */,
+				6AA94D8F2091681F0078F479 /* ZXTabbarItem.m in Sources */,
+				6AA94D712091681F0078F479 /* UIColor+ZXColor.m in Sources */,
+				6AA94D6F2091681F0078F479 /* NSBundle+ZXSetting.m in Sources */,
+				6AA94D782091681F0078F479 /* UIView+ZXFrame.m in Sources */,
+				6AA94CAD2091679A0078F479 /* main.m in Sources */,
+				6AA94D7E2091681F0078F479 /* DimmingPresentationController.m in Sources */,
+				6AA94D992091681F0078F479 /* ZXDateUtils.m in Sources */,
+				6AA94D842091681F0078F479 /* UIScrollView+ZXPullDownRefresh.m in Sources */,
+				6AA94D8E2091681F0078F479 /* ZXTabBarConfig.m in Sources */,
+				6AA94DA02091681F0078F479 /* ZXAPISign.m in Sources */,
+				6AA94D812091681F0078F479 /* ZXItemSelectTableCell.m in Sources */,
+				6AA94D8B2091681F0078F479 /* ZXFontConfig.m in Sources */,
+				6AA94D7D2091681F0078F479 /* ZXEmptyView.m in Sources */,
+				6AA94DAC2091681F0078F479 /* ZXWebStoreViewController.m in Sources */,
+				6AA94DD0209176000078F479 /* ZXDiscoverRootViewController.m in Sources */,
+				6AA94D792091681F0078F479 /* UIViewController+ZX.m in Sources */,
+				6AA94DE4209176A50078F479 /* ZXPersonalRootViewController.m in Sources */,
+				6AA94D762091681F0078F479 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				6AA94D982091681F0078F479 /* ZXCommonUtils.m in Sources */,
+				6AA94C9F209167990078F479 /* AppDelegate.m in Sources */,
+				6AA94D9E2091681F0078F479 /* ZXDBEngine.m in Sources */,
+				6AA94DA42091681F0078F479 /* ZXRouter+LeadPage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6AA94CA82091679A0078F479 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AA94CA92091679A0078F479 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AA94CAE2091679A0078F479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6AA94CAF2091679A0078F479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AA94CB12091679A0078F479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF7758355205445DCEEBF65 /* Pods-BiCanStu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BiCanStu/PCH/BiCanStu-PreCompile.pch";
+				INFOPLIST_FILE = BiCanStu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.reson.BiCanStu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6AA94CB22091679A0078F479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C18473DC0FFD3C144C21C6A9 /* Pods-BiCanStu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BiCanStu/PCH/BiCanStu-PreCompile.pch";
+				INFOPLIST_FILE = BiCanStu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.reson.BiCanStu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AA94C95209167990078F479 /* Build configuration list for PBXProject "BiCanStu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA94CAE2091679A0078F479 /* Debug */,
+				6AA94CAF2091679A0078F479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AA94CB02091679A0078F479 /* Build configuration list for PBXNativeTarget "BiCanStu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA94CB12091679A0078F479 /* Debug */,
+				6AA94CB22091679A0078F479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AA94C92209167990078F479 /* Project object */;
+}
